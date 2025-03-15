@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "author": "Honkytonk Robot",
-  "type": "commonjs",
+  "type": "module",
   "main": "server/index.js",
   "scripts": {
     "dev": "vite",
