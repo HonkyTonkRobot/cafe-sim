@@ -1,19 +1,7 @@
 import { createRoot } from 'react-dom/client'
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
-import routes from './routes.tsx'
-
-const queryClient = new QueryClient()
-
-const router = createBrowserRouter(routes)
+import App from './components/App'
 
 document.addEventListener('DOMContentLoaded', () => {
-  createRoot(document.getElementById('app') as HTMLElement).render(
-    <QueryClientProvider client={queryClient}>
-      <RouterProvider router={router} />
-      <ReactQueryDevtools />
-    </QueryClientProvider>,
-  )
+  createRoot(document.getElementById('app') as HTMLElement).render(<App />)
 })
