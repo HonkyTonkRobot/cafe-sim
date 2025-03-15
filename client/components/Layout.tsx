@@ -4,19 +4,21 @@ function Layout() {
 
   return (
     <>
-      <header>
-        <h2>Layout Header</h2>
+      <header className="container">
         <nav>
           <Link to="/start-menu">Start Menu</Link>
           <Link to="/instructions">Instructions</Link>
         </nav>
       </header>
-      <main>
-        <h1>Layout Main</h1>
+      <main className="container">
         <Outlet />
       </main>
-      <footer>
-        <h3>Layout Footer</h3>
+      <footer className="container">
+        <nav>
+          <Link to="/start-menu">Espresso Machine</Link>
+          <Link to="/register">Register</Link>
+          <Link to="/store">Store</Link>
+        </nav>
       </footer>
     </>
   )
