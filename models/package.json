@@ -1,0 +1,20 @@
+{
+  "name": "cafe-sim",
+  "version": "1.0.0",
+  "description": "A simple cafe simulator game",
+  "homepage": "https://github.com/HonkyTonkRobot/cafe-sim#readme",
+  "bugs": {
+    "url": "https://github.com/HonkyTonkRobot/cafe-sim/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HonkyTonkRobot/cafe-sim.git"
+  },
+  "license": "MIT",
+  "author": "Honkytonk Robot",
+  "type": "commonjs",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "test"
+  }
+}
