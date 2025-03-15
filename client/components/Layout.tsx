@@ -15,7 +15,7 @@ function Layout() {
       </main>
       <footer className="container">
         <nav>
-          <Link to="/start-menu">Espresso Machine</Link>
+          <Link to="/tickets">Espresso Machine</Link>
           <Link to="/register">Register</Link>
           <Link to="/store">Store</Link>
         </nav>
