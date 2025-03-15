@@ -1,7 +1,17 @@
 /* eslint-disable react/jsx-key */
-import { createRoutesFromElements, Route } from 'react-router-dom'
-import App from './components/App'
+import { createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom'
 
-const routes = createRoutesFromElements(<Route index element={<App />} />)
+import Layout from './components/Layout'
+import Home from './components/Home'
+import StartMenu from './components/StartMenu'
+import Instructions from './components/Instructions'
 
-export default routes
+const routes = createRoutesFromElements(
+  <Route path='/' element={<Layout />} >
+    <Route index element={<Home />} />
+    <Route path='instructions' element={<Instructions />} />
+    <Route path='start-menu' element={<StartMenu />} />
+  </Route>
+)
+
+export const router = createBrowserRouter(routes)

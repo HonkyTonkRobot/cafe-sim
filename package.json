@@ -1,0 +1,52 @@
+{
+  "name": "cafe-sim",
+  "version": "1.0.0",
+  "description": "A simple cafe simulator game",
+  "homepage": "https://github.com/HonkyTonkRobot/cafe-sim#readme",
+  "bugs": {
+    "url": "https://github.com/HonkyTonkRobot/cafe-sim/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HonkyTonkRobot/cafe-sim.git"
+  },
+  "license": "MIT",
+  "author": "Honkytonk Robot",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "test",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
+  },
+    "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "nodemon": "^2.0.15",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.2.5",
+    "react": "^18.0.2",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0",
+    "vitest": "^1.2.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "browserslist": "> 2%, not dead"
+}
+
