@@ -31,7 +31,7 @@ There is no winning the game, but the goal is to make as much money as possible 
 - [ ] Create Screens
     - [ ] Cafe Home Start Game Screen
     - [ ] Instructions Screen
-    - [ ] Customer Order Screen
+    - [x] Customer Order Screen
     - [ ] Customer receiving order screen
     - [ ] Ticket Screen
     - [ ] Inventory Screen

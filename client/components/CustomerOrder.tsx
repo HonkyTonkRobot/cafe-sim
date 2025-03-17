@@ -1,7 +1,7 @@
 import { useRef } from "react"
 
 function CustomerOrder() {
-  const dialogRef = useRef(null)
+  const dialogRef = useRef<HTMLDialogElement | null>(null)
 
   const openDialog = () => {
     if (dialogRef.current) {
