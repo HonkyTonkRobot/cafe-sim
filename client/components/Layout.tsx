@@ -1,25 +1,16 @@
-import { Link, Outlet } from "react-router-dom"
+import { Outlet } from "react-router-dom"
+import Header from "./Header"
+import Footer from "./Footer"
 
 function Layout() {
 
   return (
     <>
-      <header className="container">
-        <nav>
-          <Link to="/start-menu">Start Menu</Link>
-          <Link to="/instructions">Instructions</Link>
-        </nav>
-      </header>
+      <Header />
       <main className="container">
         <Outlet />
       </main>
-      <footer className="container">
-        <nav>
-          <Link to="/tickets">Espresso Machine</Link>
-          <Link to="/register">Register</Link>
-          <Link to="/store">Store</Link>
-        </nav>
-      </footer>
+      <Footer />
     </>
   )
 }
