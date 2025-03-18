@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import CustomerOrder from "./CustomerOrder"
+import '../../pico.sand.css'
 import css from "../styles/footer.module.css"
 
 function Footer() {

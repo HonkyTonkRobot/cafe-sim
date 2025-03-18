@@ -1,4 +1,6 @@
 import { useRef } from "react"
+import '../../pico.sand.css'
+import style from "../styles/customerModal.module.css"
 
 function CustomerOrder() {
   const dialogRef = useRef<HTMLDialogElement | null>(null)
@@ -19,10 +21,10 @@ function CustomerOrder() {
     <>
       <button onClick={openDialog}>+Customer</button>
       <dialog ref={dialogRef}>
-        <article>
+        <article className={style.modal}>
 
           <p>I would like to order...</p>
-          <div role="group">
+          <div className={style.buttonPosition} role="group">
             <button onClick={closeDialog}>Accept</button>
             <button onClick={closeDialog} className="contrast">Decline</button>
           </div>

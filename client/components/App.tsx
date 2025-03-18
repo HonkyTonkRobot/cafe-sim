@@ -1,4 +1,5 @@
 import Layout from "./Layout"
+import '../../pico.sand.css'
 
 function App() {
 

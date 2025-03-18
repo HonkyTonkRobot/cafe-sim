@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import '../../pico.sand.css'
 import style from "../styles/header.module.css"
 
 function Header() {

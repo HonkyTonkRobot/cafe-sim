@@ -1,3 +1,5 @@
+import '../../pico.sand.css'
+
 function StartMenu() {
   return (
     <article>

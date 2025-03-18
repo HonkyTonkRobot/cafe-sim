@@ -1,3 +1,5 @@
+import '../../pico.sand.css'
+
 function Instructions() {
   return (
     <article>
