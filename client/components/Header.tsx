@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import '../../pico.sand.css'
 import style from "../styles/header.module.css"
+import CustomerOrder from "./CustomerOrder"
 
 function Header() {
 
@@ -8,8 +9,11 @@ function Header() {
     <>
       <header className={`container ${style.header}`}>
         <nav>
-          <Link to="/start-menu">Start Menu</Link>
-          <Link to="/instructions">Instructions</Link>
+          <ul>
+            <li><Link to="/start-menu">Start Menu</Link></li>
+            <li><Link to="/instructions">Instructions</Link></li>
+          </ul>
+          <CustomerOrder />
         </nav>
       </header >
     </>
