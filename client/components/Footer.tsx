@@ -9,8 +9,8 @@ function Footer() {
     <>
       <footer className={`container ${css.footer}`}>
         <nav>
-          <Link to="/tickets">Espresso Machine</Link>
           <Link to="/register">Register</Link>
+          <Link to="/tickets">Orders</Link>
           <Link to="/store">Store</Link>
           <CustomerOrder />
         </nav>

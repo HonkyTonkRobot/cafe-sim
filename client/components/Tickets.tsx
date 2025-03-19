@@ -1,7 +1,7 @@
 import '../../pico.sand.css'
 import style from '../styles/content.module.css'
 
-function EspressoMachine() {
+function Tickets() {
   return (
     <>
       <article className={style.content}>
@@ -11,4 +11,4 @@ function EspressoMachine() {
   )
 }
 
-export default EspressoMachine
+export default Tickets

@@ -5,7 +5,7 @@ import Layout from './components/Layout'
 import Home from './components/Home'
 import StartMenu from './components/StartMenu'
 import Instructions from './components/Instructions'
-import EspressoMachine from './components/EspressoMachine'
+import Tickets from './components/Tickets'
 import Store from './components/Store'
 import Register from './components/Register'
 
@@ -14,7 +14,7 @@ const routes = createRoutesFromElements(
     <Route index element={<Home />} />
     <Route path='instructions' element={<Instructions />} />
     <Route path='start-menu' element={<StartMenu />} />
-    <Route path='tickets' element={<EspressoMachine />} />
+    <Route path='tickets' element={<Tickets />} />
     <Route path='store' element={<Store />} />
     <Route path='register' element={<Register />} />
   </Route >
