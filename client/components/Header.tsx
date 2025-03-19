@@ -13,7 +13,9 @@ function Header() {
             <li><Link to="/start-menu">Start Menu</Link></li>
             <li><Link to="/instructions">Instructions</Link></li>
           </ul>
-          <CustomerOrder />
+          <ul>
+            <li><CustomerOrder /></li>
+          </ul>
         </nav>
       </header >
     </>

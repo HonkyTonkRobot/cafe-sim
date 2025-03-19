@@ -19,7 +19,7 @@ function CustomerOrder() {
 
   return (
     <>
-      <button onClick={openDialog}>+Customer</button>
+      <a className={style.navLink} onClick={openDialog}>+Customer</a>
       <dialog ref={dialogRef}>
         <article className={style.modal}>
 
