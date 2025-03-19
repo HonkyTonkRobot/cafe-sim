@@ -6,13 +6,12 @@ function Menu() {
     <>
       <article className={style.content}>
         <h1>Menu</h1>
-        <ul>
-          <li>Black Coffee</li>
-          <li>White Coffee</li>
-          <li>Chai</li>
-          <li>Hot Chocolate</li>
-          <li>Green tea</li>
-        </ul>
+        {/* TODO: Replace with an array of objects in a data file and map over them */}
+        <p>Black Coffee</p>
+        <p>White Coffee</p>
+        <p>Chai</p>
+        <p>Hot Chocolate</p>
+        <p>Green tea</p>
       </article>
     </>
   )
