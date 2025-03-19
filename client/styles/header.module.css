@@ -1,5 +1,9 @@
 .header {
+  position: fixed;
+  left: 0;
+  right: 0;
   height: 4rem;
   align-content: center;
+  justify-content: center;
   z-index: 999;
 }

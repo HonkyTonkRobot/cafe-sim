@@ -1,9 +1,12 @@
 import '../../pico.sand.css'
+import style from '../styles/content.module.css'
 
 function Store() {
   return (
     <>
-      <h1>store screen</h1>
+      <article className={style.content}>
+        <h1>store screen</h1>
+      </article>
     </>
   )
 }

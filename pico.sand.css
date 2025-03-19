@@ -681,6 +681,11 @@ section {
  */
 .container,
 .container-fluid {
+  /* NOTE: custom code added to base template */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /* NOTE: ^^^ custom code added to base template */
   width: 100%;
   margin-right: auto;
   margin-left: auto;
