@@ -8,6 +8,7 @@ import Instructions from './components/Instructions'
 import Tickets from './components/Tickets'
 import Store from './components/Store'
 import Register from './components/Register'
+import Menu from './components/Menu'
 
 const routes = createRoutesFromElements(
   <Route path='/' element={<Layout />} >
@@ -17,6 +18,7 @@ const routes = createRoutesFromElements(
     <Route path='tickets' element={<Tickets />} />
     <Route path='store' element={<Store />} />
     <Route path='register' element={<Register />} />
+    <Route path='menu' element={<Menu />} />
   </Route >
 )
 

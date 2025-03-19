@@ -5,7 +5,7 @@ function Tickets() {
   return (
     <>
       <article className={style.content}>
-        <h1>espresso Machine screen</h1>
+        <h1>Orders</h1>
       </article>
     </>
   )
