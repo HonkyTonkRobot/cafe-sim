@@ -2513,16 +2513,18 @@ dialog article {
   overflow: auto;
 }
 
-/* @media (min-width: 576px) { */
-/*   dialog article { */
-/*     max-width: 510px; */
-/*   } */
-/* } */
-/* @media (min-width: 768px) { */
-/*   dialog article { */
-/*     max-width: 700px; */
-/*   } */
-/* } */
+@media (min-width: 576px) {
+  dialog article {
+    max-width: 510px;
+  }
+}
+
+@media (min-width: 768px) {
+  dialog article {
+    max-width: 700px;
+  }
+}
+
 dialog article>header>* {
   margin-bottom: 0;
 }
