@@ -5,9 +5,6 @@ function Home() {
 
   return (
     <>
-      <div className={`home ${style.content}`}>
-        <h1>CAFE<em>sim</em></h1>
-      </div>
     </>
   )
 }

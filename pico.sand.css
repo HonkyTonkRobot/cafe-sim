@@ -657,6 +657,12 @@ progress,
 body {
   width: 100%;
   margin: 0;
+  /* NOTE: Added these background details to pico boilerplate */
+  background-image: url(./client/images/filler-for-dev.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* NOTE: Added these background details to pico boilerplate */
 }
 
 main {

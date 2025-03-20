@@ -28,12 +28,12 @@ There is no winning the game, but the goal is to make as much money as possible 
 
 #### Basic Building Blocks
 - [ ] Build Game as a paper game, simple text visuals, with basic graphics
-- [ ] Create Screens
+- [x] Create Screens
     - [x] Cafe Home
     - [x] Start Game Screen
     - [x] Instructions Screen
     - [x] Customer Order Screen
-    - [ ] Customer receiving order screen
+    - [x] Customer receiving order screen
     - [x] Ticket Screen
     - [x] Inventory Screen
     - [x] Menu Screen
