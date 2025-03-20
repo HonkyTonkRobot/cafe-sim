@@ -1,6 +1,6 @@
 import { useRef } from "react"
+import { Link } from "react-router-dom"
 import '../../pico.sand.css'
-import style from "../styles/customerModal.module.css"
 
 function ReceivingOrder() {
   const dialogRef = useRef<HTMLDialogElement | null>(null)
@@ -19,13 +19,13 @@ function ReceivingOrder() {
 
   return (
     <>
-      <button className={style.navLink} onClick={openDialog}>Order Complete</button>
+      <button onClick={openDialog}>Order Complete</button>
 
       <dialog ref={dialogRef}>
-        <article className={style.modal}>
+        <article >
 
           <p>Thank you, it looks delicious...</p>
-          <a onClick={closeDialog}>close</a>
+          <Link to="/" onClick={closeDialog}>close</Link>
         </article>
       </dialog>
     </>
