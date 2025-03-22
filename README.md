@@ -40,13 +40,18 @@ There is no winning the game, but the goal is to make as much money as possible 
     - [x] Store screen
 - [ ] Button for generating new customer
     - [ ] Create random order based on available menu
+    - [ ] Display order in customer order modal
     - [ ] Accept or deny order
-    - [ ] Update till
-    - [ ] Update star rating
-    - [ ] update stock
+- [ ] Accept button
+    - [ ]  till++
+    - [ ]  star rating++
+    - [ ]  stock--
     - [ ] generate ticket
     - [ ] display ticket on ticket board
     - [ ] Start time from order clock on ticket
+- [ ] Decline button
+    - [ ] star rating--
+    - [ ] display customer complaint modal
 
 - [ ] Fulfill Order
     - [ ] Click button to start making food item on ticket
