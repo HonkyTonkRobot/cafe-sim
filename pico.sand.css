@@ -658,7 +658,7 @@ body {
   width: 100%;
   margin: 0;
   /* NOTE: Added these background details to pico boilerplate */
-  background-image: url(./client/images/filler-for-dev.jpg);
+  background-image: url(./client/images/cafe-sketch.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
